@@ -11,7 +11,6 @@ Via [npm](https://npmjs.org/package/binary-protocol):
     npm install --save binary-protocol
 
 
-
 # Usage
 
 
