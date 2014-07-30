@@ -109,6 +109,8 @@ console.log(reader.next()); // {opCode: 100, username: 'admin', password: 'passw
 
 You can also define aggregate commands which represent a request / response
 
+```js
+
 protocol.define('Login', {
   write: function (data) {
     this
@@ -144,6 +146,8 @@ var details = {
 commander.Login(details).then(function (response) {
   console.log(response);
 });
+
+```
 
 # Running the tests
 
